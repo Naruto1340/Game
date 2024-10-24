@@ -1,0 +1,74 @@
+CSS (style.css)
+
+```
+body {
+    background-color: #f0f0f0;
+}
+
+.room {
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 50px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pc {
+    width: 500px;
+    height: 300px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    width: 100%;
+    height: 200px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 24px;
+    text-align: center;
+    background-color: green; 
+}
+
+.keyboard {
+    width: 100%;
+    height: 50px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.keyboard button {
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.screen-on {
+    background-color: green;
+}
+
+.screen-off {
+    background-color: #eee;
+}
+
+.text-on {
+    color: #fff;
+}
+
+.text-off {
+    color: #000;
+}
